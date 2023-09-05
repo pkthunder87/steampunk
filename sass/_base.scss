@@ -109,7 +109,19 @@ $ratio: 1.5; // Perfect Fifth
   }
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
 html {
+  box-sizing: border-box;
   font-size: #{$base-font-size + "%"}; // = 16 pixels
 
   @media screen and (min-width: $tablet-breakpoint) {
@@ -118,6 +130,22 @@ html {
   font-family: $font-meta;
   color: #333;
 }
+
+body {
+  background: url(../images/steam-BG-1.jpg);
+}
+
+// body::before {
+//   content: "";
+//   position: absolute;
+//   background: url(../images/steam-BG.jpg);
+//   z-index: -1; /* Keep the background behind the content */
+//   height: 300%;
+//   width: 100vw; /* Using Glen Maddern's trick /via @mente */
+
+//   /* don't forget to use the prefixes you need */
+//   filter: sepia(90%);
+// }
 
 // Set line-height and margins for all elements
 * {

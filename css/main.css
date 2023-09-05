@@ -19,7 +19,21 @@
   color: #f15d64;
 }
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
 html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   font-size: 100%;
   font-family: "ff-meta-serif-web-pro", Georgia, serif;
   color: #333;
@@ -28,6 +42,10 @@ html {
   html {
     font-size: 112.5%;
   }
+}
+
+body {
+  background: url(../images/steam-BG-1.jpg);
 }
 
 * {
