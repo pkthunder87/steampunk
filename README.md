@@ -7,3 +7,7 @@ I am creating a steampunk site using the same techniques from Matej Latin's [cod
 - Semantic HTML5 markup
 - CSS custom properties
 - SASS
+
+### Sources
+
+Font: Lovelace Family by [Zetafonts] (http://www.zetafonts.com/collection/3051)

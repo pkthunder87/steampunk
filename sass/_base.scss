@@ -397,6 +397,9 @@ a {
 
 footer {
   margin-top: 4em;
+  p + p {
+    margin-top: -1.5rem;
+  }
 }
 
 footer h1 {
