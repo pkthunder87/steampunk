@@ -135,17 +135,18 @@ body {
   background: url(../images/steam-BG-1.jpg);
 }
 
-// body::before {
-//   content: "";
-//   position: absolute;
-//   background: url(../images/steam-BG.jpg);
-//   z-index: -1; /* Keep the background behind the content */
-//   height: 300%;
-//   width: 100vw; /* Using Glen Maddern's trick /via @mente */
-
-//   /* don't forget to use the prefixes you need */
-//   filter: sepia(90%);
-// }
+.header {
+  display: flex;
+  width: 68.75vw;
+  height: 30vh;
+  margin-top: 0;
+  margin-left: calc(100vw * -0.125);
+  background-image: url(../images/airship-header.jpeg);
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
 
 // Set line-height and margins for all elements
 * {
