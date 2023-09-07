@@ -10,4 +10,4 @@ I am creating a steampunk site using the same techniques from Matej Latin's [cod
 
 ### Sources
 
-Font: Lovelace Family by [Zetafonts] (http://www.zetafonts.com/collection/3051)
+Font: Lovelace Family by [Zetafonts](http://www.zetafonts.com/collection/3051)
